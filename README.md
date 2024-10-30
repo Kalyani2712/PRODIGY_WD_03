@@ -11,8 +11,7 @@ The game features an interactive user interface and provides a fun way to enjoy 
 - [Usage](#usage)
 - [Game Modes](#game-modes)
 - [How to Play](#how-to-play)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## 🌟 Features
 
@@ -40,7 +39,7 @@ To run the Tic-Tac-Toe game locally, follow these steps:
 2. Navigate to the project directory:
 cd tic-tac-toe
 
-4. Open index.html in your web browser.
+3. Open index.html in your web browser.
 
 ⚙️ Usage
 Upon opening the game, you'll be prompted to choose between Player vs. Player and Player vs. AI modes.
