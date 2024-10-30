@@ -42,18 +42,19 @@ To run the Tic-Tac-Toe game locally, follow these steps:
 
 3. Open index.html in your web browser.
 
-⚙️ Usage
+## ⚙️ Usage
 Upon opening the game, you'll be prompted to choose between Player vs. Player and Player vs. AI modes.
 Click on the desired mode to start playing.
 Players take turns clicking on the boxes to place their marks (X or O).
 The game will automatically announce the winner or if the game ends in a draw.
 
-🎮 Game Modes
+## 🎮 Game Modes :
 Player vs. Player: Two players take turns to place their marks.
 Player vs. AI: The player plays as "O", while the AI plays as "X". The AI makes its move after the player's turn.
 
 
-📜 How to Play
+## 📜 How to Play :
+
 Choose your game mode.
 The player will click on an empty box to place their mark (O for the player and X for the AI).
 The game checks for a winner or a draw after each turn.
