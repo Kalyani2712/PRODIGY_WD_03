@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #548687, #2c2a26);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: #ffffc7;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.box:hover {
+    background-color: #ffd700;
+    transform: scale(1.05);
+}
+
+.box:active {
+    transform: scale(0.95);
+}
+
+#reset-btn,
+#new-btn,
+#player-vs-player,
+#player-vs-ai {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#reset-btn:hover,
+#new-btn:hover,
+#player-vs-player:hover,
+#player-vs-ai:hover {
+    background-color: #333;
+    transform: translateY(-2px);
+}
+
+#reset-btn:active,
+#new-btn:active,
+#player-vs-player:active,
+#player-vs-ai:active {
+    transform: translateY(0);
+}
+
+#msg {
+    color: #ffffc7;
+    font-size: 5vmin;
+}
+
+#status {
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#turn-status {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.hide {
+    display: none;
+}
