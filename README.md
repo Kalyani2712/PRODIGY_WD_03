@@ -37,7 +37,8 @@ To run the Tic-Tac-Toe game locally, follow these steps:
    git clone https://github.com/Kalyani2712/PRODIGY_WD_03.git
    
 2. Navigate to the project directory:
-cd tic-tac-toe
+ bash 
+ cd tic-tac-toe
 
 3. Open index.html in your web browser.
 
